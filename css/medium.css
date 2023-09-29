@@ -1,0 +1,69 @@
+/* Adjust font size for Tablet pr Pad screens */
+@media (min-width: 768px) {
+    html{
+
+    
+        background-image: url("../images/site/small_check.jpg");
+    
+    }
+    :root {
+        --pm-primary: #bababa;       /* Primary color */
+        --pm-secondary: #8d8d8d;  /* Secondary color */
+        --pm-tertiary: #a6cbeb;   /* Tertiary color */
+        --pm-color: #4c96d7;          /* Text color */
+        --pm-background: #3a3a3a; /* Background color */
+        --pm-text: #ffffff;
+        --back-image: url("./images/site/small_check.jpg");
+    }
+    body{
+        background: white;
+        width: 89%;
+        border: 3px solid var(--pm-color);
+        border-radius: 5px;
+       
+       }
+    h1, nav a {
+        font-size: 1.5rem; /* Adjust font size for tablets */
+    }
+   #wan{
+    order: 1;
+    position: absolute;
+    margin: 5px 120px 440px 1px;
+    width: 350px;
+   }
+  #thu{
+    order: 3;
+  }
+  #dre{
+    order: 2;
+    position: absolute;
+    margin: 5px 120px 90px 25px;
+    }
+  .DMC{
+    font-size: 1.5rem;
+  }
+  .secondayMain{
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "left right"
+    ;
+    gap: 30px;
+  }
+  .upgrades{
+    grid-area: left;
+  }
+  .reviews{
+    grid-area: right;
+    height: 100%;
+  }
+  #reviews{
+    font-size: 1.5rem;
+  }
+  hr{
+    margin-top: 90px;
+ }  
+    footer p{
+        text-align: center;
+        font-size: 0.85rem;
+    }
+}

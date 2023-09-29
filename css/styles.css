@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 375px ;
+    background-image: none;
+}
+:root {
+    --pm-primary: #bababa;       /* Primary color */
+    --pm-secondary: #8d8d8d;  /* Secondary color */
+    --pm-tertiary: #a6cbeb;   /* Tertiary color */
+    --pm-color: #4c96d7;          /* Text color */
+    --pm-background: #3a3a3a; /* Background color */
+    --pm-text: #ffffff;
+    --back-image: url("../images/site/small_check.jpg");
+}
+nav a {
+    font-family: 'Bangers', cursive;
+    font-size: 1.5rem;
+    
+}
+h1,h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: left;
+}
+#logo{
+    width: 150px;
+}
+div{
+    display: flex;
+}
+#own-today{
+    width: 110px;
+   
+}
+.own-img{
+    text-align: center;
+    display: block;
+}
+.DMC{
+    position: absolute;
+    margin-left: 25px;
+    color: var(--pm-color);
+    font-size: 1rem;
+}
+#delorean{
+    margin-top: 40px;
+    width: 100%;
+}
+
+body{
+ background: var(--pm-text);
+ margin: 20px auto 0;
+ width: 99%;
+ border-radius: 5px;
+}
+.reviews{
+    margin-top:15px ;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#reviews{
+    margin-top: -10px;
+}
+.upgrades{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+p.account{
+    float: right;
+    padding-right: 10px;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+    width: 90%;
+}
+nav li{
+    margin-right: 15px;
+    color: red;
+    text-decoration: none;
+    width: 50%;
+   
+}
+nav{
+    text-decoration: none;
+    background: var(--pm-background);
+    height: 25px;
+    width: 100%;
+    padding: 0;
+
+    
+}
+
+nav a{
+    font-size: .85rem;
+    text-decoration: none;
+    color: var(--pm-text);
+}
+nav ul li{
+    
+    text-align: center;
+}
+li a{
+    display: block;
+    line-height: 25px;
+}
+ li a:hover{
+   background:var(--pm-color);
+   
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.pramaryMain{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center; /* Center the content horizontally within the container */
+}
+.secondayMain{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center; /* Center the content horizontally within the container */
+
+}
+
+.img4{
+    width: 90px;
+}
+.upgrades {
+    display: block;
+    text-align: center;
+}
+
+.upgrade-img {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two columns */
+    grid-gap: 30px; /* Add gap between grid items */
+}
+
+.img-container {
+   
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    background-color: var(--pm-color);
+    border: 1px solid var(--pm-background); /* Add a border around each image */
+    padding: 15px;/* Add padding to the image container */
+    text-align: center; /* Center the image within its container */
+}
+hr{
+    margin-top: 40px;
+}
+.img-container img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+   }
+   
+
+   .img-wrapper {
+    display: inline-block;
+    text-align: center;
+    position: relative; /* Position the label relative to the image */
+}
+
+.img-wrapper img {
+    display: block;
+    text-align: center;
+    max-width: 100%; 
+     height: auto; 
+}
+.img-label a{
+    
+color: black;
+}
+.img-label {
+ text-align: center;
+ position: relative;
+  top: -5px;
+ 
+ padding: 5px; 
+}
+.lbl3{
+    top: 30px;
+}
+.lbl1{
+    top: 19px;
+}
+.lbl4{
+    top: 20px;
+}

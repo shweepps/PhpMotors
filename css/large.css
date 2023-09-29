@@ -1,0 +1,48 @@
+/* Adjust font size for Desktop screens */
+@media (min-width: 1024px) {
+
+    .DMC{
+        font-size: 2.2rem;
+      }
+      
+    h1, nav a {
+        font-size: 1.1rem;
+    }
+    nav ul {
+        font-size: 1.2rem;
+        width: 20%;
+    }
+    body{
+        background: white;
+        
+        width: 95%;
+        border: 3px solid var(--pm-color);
+        border-radius: 5px;
+       
+       }
+
+    footer p {
+        text-align: center;
+    }
+    #wan{
+        order: 1;
+        position: absolute;
+        margin: 5px 120px 560px 1px;
+        width: 350px;
+       }
+      #thu{
+        order: 3;
+      }
+      #dre{
+        order: 2;
+        position: absolute;
+        margin: 5px 120px 90px 25px;
+        }
+        footer p{
+            text-align: center;
+            font-size: 0.95rem;
+            color: black;
+        }
+
+
+}
